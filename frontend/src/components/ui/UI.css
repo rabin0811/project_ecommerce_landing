@@ -1,0 +1,98 @@
+/* Button */
+.btn-primary {
+  padding: 15px 30px;
+  background: var(--color-white);
+  color: var(--color-black-dark);
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-left.light .btn-primary {
+  background: var(--color-black-dark);
+  color: var(--color-white);
+}
+
+/* Size Selector */
+.size-selector {
+  display: flex;
+  gap: 15px;
+}
+
+.size-pill {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  font-weight: 500;
+  transition: border-color 0.3s;
+}
+
+.hero-right.light .size-pill {
+  border-color: rgba(0,0,0,0.2);
+}
+
+.size-pill.active {
+  border-color: transparent;
+}
+
+.size-pill-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-white);
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.hero-right.light .size-pill-bg {
+  background: var(--color-black-dark);
+}
+
+.size-text {
+  position: relative;
+  z-index: 1;
+}
+
+.size-pill.active .size-text {
+  color: var(--color-black-dark);
+}
+
+.hero-right.light .size-pill.active .size-text {
+  color: var(--color-white);
+}
+
+/* Carousel Controls */
+.carousel-controls {
+  display: flex;
+  gap: 20px;
+}
+
+.glass-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  color: inherit;
+  font-weight: 500;
+}
+
+.glass-btn:hover {
+  background: rgba(255,255,255,0.2);
+}

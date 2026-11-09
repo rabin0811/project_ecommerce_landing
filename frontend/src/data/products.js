@@ -1,0 +1,47 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Deep Magenta T-Shirt',
+    colorName: 'Deep Magenta',
+    price: 10000,
+    oldPrice: 15000,
+    image: '/images/shirt_magenta.png',
+    background: 'linear-gradient(135deg, #ff4fa8, #8a0055)',
+  },
+  {
+    id: 2,
+    name: 'White T-Shirt',
+    colorName: 'White',
+    price: 10000,
+    oldPrice: 15000,
+    image: '/images/shirt_white.png',
+    background: 'linear-gradient(135deg, #ffffff, #d9d9d9)',
+  },
+  {
+    id: 3,
+    name: 'Chocolate Brown T-Shirt',
+    colorName: 'Chocolate Brown',
+    price: 10000,
+    oldPrice: 15000,
+    image: '/images/shirt_brown.png',
+    background: 'linear-gradient(135deg, #8b5a2b, #4b2e19)',
+  },
+  {
+    id: 4,
+    name: 'Cream T-Shirt',
+    colorName: 'Cream',
+    price: 10000,
+    oldPrice: 15000,
+    image: '/images/shirt_cream.png',
+    background: 'linear-gradient(135deg, #f7e8c8, #dcc9a3)',
+  },
+  {
+    id: 5,
+    name: 'Charcoal Black T-Shirt',
+    colorName: 'Charcoal Black',
+    price: 10000,
+    oldPrice: 15000,
+    image: '/images/shirt_black.png',
+    background: 'linear-gradient(135deg, #2d2d2d, #111111)',
+  }
+];
